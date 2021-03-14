@@ -1,0 +1,33 @@
+.App {
+  padding: 5%;
+  text-align: center;
+  font-size: 16px;
+}
+.party-popper {
+  width: 200px;
+  height: 200px;
+}
+.fade {
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+.age-stats {
+  opacity: 100;
+}
+
+body{
+  background-image: linear-gradient(43deg, #e5ff00 25%, #00c3ff 49%, #ff0000 93%);
+  min-height:calc(100vh - 16px);
+  color:rgb(0, 0, 0);
+  font-family: 'Merienda One', cursive;
+}
